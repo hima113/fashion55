@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Shoes</span>fashion </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="products.html">OurProducts</a>
+        <a href="#services">services</a>
+       
+        <a href="reviews.html">reviews</a>
+        <a href="contact.html">about</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">sign up</button>
+        <i class="far fa-user"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="" onsubmit="return validation()"  name="myForm">
+        <h3>sign up</h3>
+        <pre>it's free and only takes a minute</pre>
+        <table>
+       <tr><td> <label for=""></label>
+        <input type="text"  name="firstName" placeholder="first name" class="box">
+       <td> <label for=""></label>
+         <input type="text" name="lastName" placeholder="last name" class="box"></td></tr>  </table>
+         <label for=""></label>
+      
+        <input type="adress" name="address" placeholder="adress" class="box" >
+        <label for=""></label>
+        <input type="text" name="tNumber" placeholder="phone" class="box">
+        <label for=""></label>
+        <input type="email"  name="eMail"placeholder="email" class="box">
+        <label for=""></label>
+        <input type="password" name="pass" placeholder="password" class="box">
+       
+        
+        
+        <p style="font-size: 20;text-align: left;">Gender: <input type="radio" name="sex" value="male">  Male <input type="radio" name="sex" value="female">Female</p>
+        
+      
+        <input type="submit" value="sign up" class="btn" >
+        <p>or sign up with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+
+        </div>
+        <p> already have an account? <a href="#">sign in</a> </p>
+        
+    </form>
+
+</div>
+
+<section class="services" id="services">
+
+    <h1 class="heading"> . <span>.</span> </h1>
+    <h2 class="heading"> our <span>services</span> </h2>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-user"></i>
+            <h3>customer</h3>
+            <p>dear customer, you can return shoes aftr only 14 days.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-arrow-right"></i>
+            <h3>replacement</h3>
+            <p>dear customer, you can replace shoes aftr only 14 days.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-circle"></i>
+            <h3>sales</h3>
+            <p>dear customer, you can get a lot of sales using our website.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>delivery</h3>
+            <p>dear customer, we can deliver your order to you everywhere.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-star-half-alt"></i>
+            <h3>waterproof</h3>
+            <p>dear customer, we have waterproof shoes to use in winter.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>support</h3>
+            <p>dear customer, you should now that we are a good website.</p>
+            <a href="#" class="btn"> read more</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
